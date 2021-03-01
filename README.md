@@ -4,4 +4,4 @@
 
 https://mrr28.github.io/Is-601-How-Internet-Works/
 
-![][https://s27389.pcdn.co/wp-content/uploads/2017/04/AdobeStock_116472569-1024x673.jpeg]
+![](https://s27389.pcdn.co/wp-content/uploads/2017/04/AdobeStock_116472569-1024x673.jpeg)
