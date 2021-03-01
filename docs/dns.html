@@ -47,6 +47,61 @@
         </ul>
     </nav>
 
+ <p style="margin: 50px">
+        DNS stands for Domain Name System. It is a hierarchical and decentralized naming system for content on the Internet.
+        When using the Internet, the IP addresses of devices and websites are kept track by
+        Domain Name System. If someone is accessing Google.com, for example, the device they are using will reach out to the
+        Internet server, requesting to access the site and be given the associated IP address to access it. The DNS takes the
+        domain name of Google and its IP address, translates it to the IP address, and sends it to the device requesting it.
+        With that IP address, the device is then able to display Google's home page. This way, no one has
+        to memorize any IP addresses and can just use the URLs to access information.
+    </p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/03/what-is-dns.png" style="max-height: 200px; margin: 25px">
+        </div>
+        <div class="col-sm-8">
+            <p style="margin: 50px;">
+            However, no one DNS server can hold all the information to all of the IP addresses. There are actually multiple
+            DNS servers that help with containing information to all the IP addresses there are in the world. No matter how many IP addresses
+            or devices there are, DNS is designed to scale and will be able to handle any number of them. Additionally,
+            there are four DNS servers that come into play. These four servers are the DNS recursor, root nameserver,
+            TLD (top level domain) nameserver, and authoritative nameserver. More on the different DNS servers can
+            be read <a href="https://www.cloudflare.com/learning/dns/what-is-dns/" style="color: blue">here</a>.
+        </p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <p style="margin: 50px">
+                Let's also look at a visual to exhibit how this works. For simplicity sake, I will just be explaining the DNS
+                server as if it was a single entity. There are four components here and the goal is for the user to be able to
+                go on Amazon.com. A user requests to go on Amazon.com and in order to get there, the computer has to make a GET
+                request to the web server. The web server will then go to the DNS Server to get the IP address necessary for
+                accessing Amazon.com. The DNS server will find the IP address associated with that website in the request, then
+                send it back to the web server, which will be sent back to the user. Now the user will be able to view Amazon.com.
+                Of course, this all happens in less than a second and is done every time a user accesses a different website.
+            </p>
+        </div>
+        <div class="col-sm-6">
+            <img src="https://cdn.business2community.com/wp-content/uploads/2021/01/DNS-Diagram.png" style="max-width:600px">
+
+        </div>
+    </div>
+</div>
+
+    <p style="margin: 50px">
+        Because the Internet is public and open and very connected, there lies some risk to using it as well.
+        One of these risks specifically with DNS is DNS spoofing. DNS spoofing is when a hacker changes a DNS server
+        to give and match it with fake IP addresses and fake websites to mislead people. This can be dangerous to people who
+        are expecting to browse one website but are actually led to a fake one where hackers can do a number of things
+        on there including steal information or give other devices malicious software or viruses.
+    </p>
     <!------------------------>
     <!-- Footer -->
     <!------------------------>
