@@ -1,6 +1,6 @@
 # IS 601 - How the Internet Works Website
 
-###Welcome to the Git! Click on the link to access the website!
+### Welcome to the Git! Click on the link to access the website!
 
 https://mrr28.github.io/Is-601-How-Internet-Works/
 
