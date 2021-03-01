@@ -51,8 +51,8 @@
     </nav>
 
 
-<h3 style="margin: 25px">IP Addresses</h3>
-<p style="margin: 50px">
+<h3 style="margin: 50px">IP Addresses</h3>
+<p style="margin-top: 25px; margin-left: 50px;margin-right: 50px">
     In the early days of the Internet, there wasn't a standard way to communicate between devices. As we may know,
     the Internet is a network of networks and links billions of devices all over the world. Because of how huge the Internet is,
     there is something called an Internet Protocol (IP). The Internet Protocol essentially sets the rules for how the Internet
@@ -62,25 +62,51 @@
     They also allow for devices to communicate back and forth, between each other to websites and to web servers.
 </p>
 
-<p style="margin: 50px">
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p style="margin-left: 50px;margin-right: 50px;margin-top: 25px">
     Originally, IP addresses were 32 bits long. These sets of IP addresses began being used in the 1970s and was called
     IPv4. IPv4 was able to account for 4 billion devices. This seems like a lot, but as it turns out as society progresses
     and technology becomes more and more prevalent, there was a need to expand the system further. Hence, IPv6 is beginning to be
     used and being transitioned into the Internet today. IPv6 will account for 340 undecillion unique IP addresses in total,
     which will be more than enough for each grain of sand on Earth to own its own IP address.
-</p>
-
-<div class="container">
-    <div class="row">
-        <div class="col"></div>
-        <div class="col"></div>
+            </p>
+        </div>
+        <div class="col">
+            <img src="https://media.itpro.co.uk/image/upload/v1570815864/itpro/2018/01/ipaddress.jpg" style="max-height: 300px">
+        </div>
     </div>
 </div>
 
 
 <h3 style="margin: 25px">Packet Switching and Routing</h3>
+<p style="margin-top: 25px; margin-left: 50px;margin-right: 50px">
+    In order for data and information to get from devices and servers through the Internet, they have to travel in some
+    way. Enter the routing and packet switching network. Information and data is broken down into what are called packets.
+    Packets hold bits of information that is going to be transmitted through the Internet. In a network, individual packets
+    are able to take any route necessary to get to its given digital destination so long as they end up in the same place.
+    Depending on Internet traffic, there are infinite number of routes for packets to take. The image below shows a quick example
+    of what the packet switching network looks like with a couple of packets being sent from one computer to another. With just
+    those two packets, they are taking different routes in the network but still end up in the same place.
+</p>
+<div class="text-center">
+<img src="https://networkencyclopedia.com/wp-content/uploads/2019/10/packet-switching.png" style="max-height: 400px">
+</div>
+<p style="margin-top: 25px; margin-left: 50px;margin-right: 50px">
+    Along the way are routers. Routers act sort of like Internet traffic managers that keep the packets moving smoothly
+    through the network. Each router keeps track of different paths the packets take, monitoring where they end up going.
+    The goal is to have packets take the cheapest and most available path, which may also not be the most direct path. Because
+    of how many packets there can be at a time, and especially since packets can only hold so many bits of data, it is beneficial
+    to have more routers. More routers means more reliability in the packet switching network.
+</p>
 
-
+<p style="margin-top: 25px; margin-left: 50px;margin-right: 50px">
+    At the very end of the road when packets arrive at the destination is the TCP (Transmission Control Protocol). The TCP
+    sending and receiving of information and data as packets. It makes sure that all packets have arrived. If not every packet
+    has arrived at the end, it won't be approved by TCP and packets will be resent. TCP is also scalable and can work on a range
+    of Internet devices. Overall, the Internet is able to work because of all of these things working together.
+</p>
 
     <!------------------------>
     <!-- Footer -->
